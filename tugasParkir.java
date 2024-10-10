@@ -23,7 +23,7 @@ public class tugasParkir {
                 if(durasi>5){
                     total+=12500;
                 }
-                if(jenis==1){
+                else if(jenis==1){
                     total+=durasi*3000;
                 }else if(jenis==2){
                     total+=durasi*2000;
